@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Album covers</title>
+    <meta name="author" content="Jan van der Henst">
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+    <h1>Album covers</h1>
+    <div class="wrapper">
+      <div class="cover">
+        <img src="https://cdn.pastemagazine.com/www/system/images/photo_albums/more-album-covers-love/large/ryley-walker-covers.jpg?1384968217" alt="Ryley Walker album cover" width="400" height="250">
+        <article>
+          <h3>Ryley Walker</h3>
+          <h4>Golden sings that have been sung</h4>
+          <p>
+          In zijn teksten toont Walker zich een tobbende ziel die worstelt met geloofsvragen, <br>
+          een gevolg van zijn jeugd in een christelijke gemeenschap. <br>
+          Walker verpakt zijn worstelingen in lichtelijk door jazz beïnvloedde songs. <br>
+          Wel wat zwaar op de hand, maar dat is voor sommige luisteraars juist een uitstekende aanbeveling.
+          </p>
+        </article>
+      </div>
+        <!-- einde van album -->
+        <div class="cover">
+          <img src="https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/andy-warhol.png?itok=FxrUQUq_&resize=1100x1100" alt="the Velvet Underground album cover">
+          <article>
+            <h3>The Velvet Underground & Nico</h3>
+            <h4>Verve</h4>
+            <ul>
+              <li>Sunday Morning (2:56)</li>
+              <li>I'm Waiting for the Man (4:39)</li>
+              <li>Femme Fatale (2:38)</li>
+              <li>Venus in Furs (5:12)</li>
+              <li>Run Run Run (4:22)</li>
+              <li>All Tomorrow's Parties (6:00)</li>
+              <li>Heroin (7:12)</li>
+              <li>There She Goes Again (2:41)</li>
+              <li>I'll Be Your Mirror (2:14)</li>
+              <li>Black Angel's Death Song (3:11)</li>
+              <li>European Son (7:46)</li>
+            </ul>
+          </article>
+        </div>
+        <!-- einde van album -->
+          <div class="cover">
+            <img src="http://www.fubiz.net/wp-content/uploads/2016/01/bestofalbumcover201522-1024x1024.jpg" alt="Johnny Jewel album cover" width="360" height="350">
+            <article>
+              <h3>Johnny Jewel</h3>
+              <h4>Lost River</h4>
+              <p>
+                Johnny Jewel's official soundtrack to the Ryan Gosling-directed film Lost River blends <br>
+                clipped, opiated pop from Chromatics, Desire, and Glass Candy, with contributions <br>
+                by the film's actors and ambient works by Jewel.
+              </p>
+            </article>
+          </div>
+          <!-- einde van album -->
+            <div class="cover">
+              <img src="http://www.fubiz.net/wp-content/uploads/2016/01/bestofalbumcover201534-900x900.jpg" alt="Tame Impala album cover" width="400" height="250">
+              <article>
+                <h3>Tame Impala</h3>
+                <h4>Currents</h4>
+                <ul>
+                  <li>Let It Happen	length: 7:46</li>
+                	<li>Nangs	length: 1:47</li>
+                	<li>The Moment length: 4:15</li>
+                	<li>Yes I'm Changing	length: 4:30</li>
+                	<li>Eventually	length: 5:19</li>
+                  <li>Gossip	length: 0:55</li>
+                	<li>The Less I Know the Better	length: 3:38</li>
+                	<li>Past Life	length: 3:47</li>
+                	<li>Disciples	length: 1:48</li>
+                	<li>'Cause I'm a Man	length: 4:01</li>
+                	<li>Reality in Motion	length: 4:12</li>
+                	<li>Love/Paranoia	length: 3:06</li>
+                	<li>New Person, Same Old Mistakes	length: 6:02</li>
+                </ul>
+              </article>
+          </div>
+          <!-- einde van album -->
+            <div class="cover">
+              <img src="http://www.fubiz.net/wp-content/uploads/2016/01/bestofalbumcover201523.jpg" alt="Lower Dens album cover" width="450" height="300">
+              <article>
+                  <h3>Lower Dens</h3>
+                  <h4>Escape From Evil</h4>
+                  <p>
+                    Stephen Carlick of Exclaim! called the record "the closest thing to pop music they've made yet," <br>
+                    praising their push into new sonic territory as "the mark of any great band.
+                  </p>
+              </article>
+          </div>
+          <div class="cover">
+            <img src="http://www.fubiz.net/wp-content/uploads/2016/01/bestofalbumcover20156.jpg" alt="Coldplay album cover"  width="400" height="360">
+            <article>
+                <h3>Coldplay</h3>
+                <h4>A Head Full oF Dreams</h4>
+                <ul>
+                  <li>A Head Full Of Dreams</li>
+                  <li>Birds</li>
+                  <li>Hymn For The Weekend</li>
+                  <li>Everglow</li>
+                  <li>Adventure Of A Lifetime</li>
+                  <li>Fun</li>
+                  <li>Kaleidoscope</li>
+                  <li>Army Of One</li>
+                  <li>Amazing Day</li>
+                  <li>Colour Spectrum</li>
+                  <li>Up&Up</li>
+                </ul>
+            </article>
+          </div>
+        </div>
+
+        <footer>
+          <div id="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+              <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5" id="html"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+              <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS" id="css">
+            </a>
+          </div>
+        </footer>
+
+        <script>
+          let alleAlbums = document.querySelectorAll('.cover');
+
+          const naarBoven = (e) => {
+            e.target.classList.remove('naarBeneden');
+            e.target.classList.add('naarBoven');
+          }
+
+          const naarBeneden = (e) => {
+            e.target.classList.remove('naarBoven');
+            e.target.classList.add('naarBeneden');
+          }
+
+          for (let i = 0; i < alleAlbums.length; i++) {
+            let cover = alleAlbums[i];
+            cover.addEventListener('mouseenter', naarBoven);
+            cover.addEventListener('mouseleave', naarBeneden);
+          }
+
+        </script>
+  </body>
+</html>

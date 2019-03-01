@@ -1,0 +1,101 @@
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  padding-left: 47%;
+}
+
+#validatie {
+  height: 100px;
+  width: 100px;
+  margin-top: 43em;
+}
+
+#html {
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+#css {
+  width: auto;
+  height: auto;
+}
+
+/* reset  */
+html, body, div, article, h3, h4{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.wrapper {
+  width: 90%;
+  margin-left: 15.5%;
+}
+.cover {
+  width: 300px;
+  float: left;
+  margin: 1em;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.cover article {
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  height: 305px;
+  font-size: .8em;
+  padding: 1em;
+  margin-top: 0;
+  /* animation: naar-beneden 1.3s forwards; */
+}
+
+/* .cover:hover article {
+  margin-top: -305px;
+  cursor: pointer;
+  animation: naar-boven 1.3s forwards;
+} */
+
+@-webkit-keyframes naarBeneden {
+  10% {margin-top: -305px}
+  30% {margin-top: -152px}
+  50% {margin-top: -76px}
+  70% {margin-top: -38px}
+  90% {margin-top: -19px}
+  20%, 40%, 60%, 80%, 100% {margin-top: 0}
+}
+
+.naarBoven article {
+  animation: naarBoven 1.3s forwards;
+}
+
+.naarBeneden article {
+  animation: naarBeneden 1.3s forwards;
+}
+
+@-webkit-keyframes naarBoven {
+  10% {margin-top: 0}
+  30% {margin-top: -155px}
+  50% {margin-top: -225px}
+  70% {margin-top: -270px}
+  90% {margin-top: -290px}
+  20%, 40%, 60%, 80%, 100% {margin-top: -305px}
+}
+
+.cover article h3, .cover article h4, .cover article p {
+  padding: .3em;
+}
